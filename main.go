@@ -6,6 +6,11 @@ var (
 	a int = 1
 )
 
-func main() {
-	fmt.Println("123")
+func max(a, b int) int {
+	if a < b {
+		return b
+	} else {
+		return a
+	}
+	fmt.Print("success")
 }
